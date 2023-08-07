@@ -17,7 +17,7 @@ LOGGER = logging.getLogger(__name__)
 
 
 bot = Client(
-    "AsuXMusic",
+    "LOKESH_DAUSA",
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
@@ -37,10 +37,10 @@ user = PyTgCalls(
 
 call_py = PyTgCalls(Abishnoi, overload_quiet_mode=True)
 
-OWNER_NAME = "Abishnoi1M"
+OWNER_NAME = "LOKESH_DAUSA"
 F_OWNER = OWNER_ID[0]
 
-with Client("AsuXMusic", API_ID, API_HASH, bot_token=BOT_TOKEN) as app:
+with Client("LOKESH_DAUSA", API_ID, API_HASH, bot_token=BOT_TOKEN) as app:
     x = app.get_me()
     BOT_ID = x.id
     BOT_NAME = x.first_name + (x.last_name or "")
